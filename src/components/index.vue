@@ -29,21 +29,7 @@
       <h1 lang="ko">네트워크</h1>
       <h1 lang="en" class="font-color_1">VIRUS</h1>
     </div>
-    <a id="main-reg" href="https://goo.gl/forms/XWmXFUUSAtZIpthf1" lang="ko" class="sub-font">지원하기</a>
-    <div id="main-day" class="main-font">
-      <h1 id="main-target" class="font-color_1" lang="en">2018. 12. 30</h1>
-      <h1 id="main-countdown" lang="en">
-        <countdown :time="time" :interval="100">
-          <template slot-scope="props">{{ props.days }}:{{ props.hours }}:{{ props.minutes }}:{{ props.seconds.split('.')[0] }}</template>
-        </countdown>
-        <div>
-          <p class="countdown-sub">day</p>
-          <p class="countdown-sub">hour</p>
-          <p class="countdown-sub">minute</p>
-          <p class="countdown-sub">second</p>
-        </div>
-      </h1>
-    </div>
+    <a id="main-reg" href="https://www.facebook.com/virusnetwork.official/" lang="ko" class="sub-font">자세히 보기</a>
     <div id="main-bg-assets">
       <img id="bg_assets_1" src="./../assets/bg_assets_1.png" />
       <img id="bg_assets_1_2" src="./../assets/bg_assets_1.png" />
